@@ -1,0 +1,147 @@
+body{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.header{
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    background: rgb(34, 21, 21);
+    padding: 0 0;
+    color: lightgreen;
+    top: 0;
+    font-size: 8px;
+    display: inline-block;
+
+}
+.container{
+    width: 100%;
+    margin: 0 auto;/* center the div horizontally */
+    text-align: center;
+}
+.logo{
+    display: inline-block;
+    vertical-align: bottom;
+    width: 80px;
+    height: 65px;
+    margin-right: 20px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+    height: 50px;
+    line-height: 80px;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+
+}
+.topnav a:hover{
+        background-color: rgb(214, 162, 98);
+        color: rgb(6, 107, 6);
+}
+.topnav a.active{
+    background-color: cadetblue;
+    color: black;
+}
+.topnav input[type=text]{
+    float: right;
+    padding: 6px 6px;
+    margin-top: 30px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+@media only screen and(min-width:700px){
+    .topnav a{
+        background-position: 25px center;
+        display: block;
+    }
+    .topnav ul{
+        justify-content: flex-end;
+    }
+    .topnav li{
+        width: 50px;
+    }
+    .navText{
+        display: inline;
+        text-align: center;
+        padding-left: 25px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap:10px;
+    }
+}
+#f1{
+    background-color: rgb(12, 10, 10);
+}
+#f{
+    background-color: rgba(65, 53, 53, 0.911);
+}
+
+#a{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40;
+    padding: 30px 0px 35px 100px;
+    color: aqua;
+
+}
+
+#h{
+    color: brown;
+}
+#field{
+    font-family: cursive;
+    color: chocolate;
+    font-size: large;
+}
+h2{
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20;
+    padding: 30px 0px 35px 100px;
+    color: coral;
+}
+#submit{
+    color: whitesmoke;
+    background-color: brown;
+}
+.op:hover{
+    color: rgb(21, 100, 100);
+}
+.frame{
+    height: "450";
+    width: "450";
+    -moz-box-align: right;
+}
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    position: unset;
+    background: black;
+    padding: 10px 0;
+    color: rgb(252, 248, 248);
+    bottom: 0;
+    text-align: initial;
+    display: inline-block;
+    background-size: cover;
+    vertical-align: middle;
+}
